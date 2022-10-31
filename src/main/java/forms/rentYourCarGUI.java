@@ -9,6 +9,7 @@ import tools.JsonFileHandler;
 
 public class rentYourCarGUI extends JFrame {
 
+    private JPanel menuBar;
     private JPanel mainPanel;
     private JPanel cardLayoutPanel;
     private JPanel registerUserPanel;
@@ -30,6 +31,18 @@ public class rentYourCarGUI extends JFrame {
     private JTextField passwordInput;
     private JPanel registerActionPanel;
     private JButton submitButton;
+    private JPanel createAdPanel;
+    private JTextField textField2;
+    private JTextField textField3;
+    private JTextField textField4;
+    private JComboBox comboBox1;
+    private JComboBox comboBox2;
+    private JTextField textField5;
+    private JTextField textField6;
+    private JTextField textField1;
+    private JButton createAddButton;
+    private JLabel pageText;
+    private JButton createAdButton;
 
     public rentYourCarGUI(String title){
         super(title);
@@ -55,6 +68,13 @@ public class rentYourCarGUI extends JFrame {
 
 
 
+        });
+
+        createAdButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                
+            }
         });
 
 
